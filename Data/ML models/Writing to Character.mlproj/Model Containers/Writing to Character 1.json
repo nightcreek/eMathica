@@ -1,0 +1,149 @@
+{
+  "activityEntities" : [
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2025-10-31T02:59:43Z",
+        "event" : "experimentCreated",
+        "id" : "D2F9DB23-8C4B-43DB-B511-98019889F0C5",
+        "subtitle" : "Writing to Character 1",
+        "title" : "Model Source Created"
+      }
+    ],
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2025-11-06T05:31:28Z",
+        "event" : "trainingDataAdded",
+        "id" : "B2F038D7-7AFB-40B5-A653-5CF1E34C6E45",
+        "subtitle" : "train",
+        "title" : "Training Data Added"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+    "createdDate" : "2025-10-31T02:59:43Z"
+  },
+  "createdDate" : "2025-10-31T02:59:43Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2025-11-06T05:31:45Z",
+    "evaluationEntities" : [
+
+    ],
+    "id" : "32546385-ae20-427b-8069-aa3e6180a837",
+    "modifiedDate" : "2025-11-06T05:31:45Z",
+    "previewType" : "imageClassifier",
+    "testingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2025-10-31T02:59:43Z",
+      "dataResult" : {
+        "createdDate" : "2025-10-31T02:59:43Z"
+      },
+      "id" : "43d428c2-a8ea-417b-8438-1b428cdd05b2"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2025-10-31T02:59:43Z",
+      "dataResult" : {
+        "createdDate" : "2025-10-31T02:59:43Z",
+        "dataSourceID" : "98CB5476-41EE-41A8-B10C-88D08D0981FF",
+        "dataURL" : "file:///Users/night_creek/Downloads/mathwriting-2024/train/"
+      },
+      "dataSourceID" : "98CB5476-41EE-41A8-B10C-88D08D0981FF",
+      "id" : "bab1f824-5dc6-4a53-be50-f5976cf77011"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2025-10-31T02:59:43Z",
+      "dataResult" : {
+        "createdDate" : "2025-10-31T02:59:43Z"
+      },
+      "id" : "cd88e040-d73f-4db0-a622-d8f08732d725"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "8930d53b-ab18-407f-9c41-58489a960b43"
+  },
+  "evaluationState" : "uninitialized",
+  "id" : "D33E45D9-EE04-42E5-A9EE-1E3B16958C47",
+  "modelEntity" : {
+    "createdDate" : "2025-10-31T02:59:43Z",
+    "experimentID" : "D33E45D9-EE04-42E5-A9EE-1E3B16958C47",
+    "id" : "447A9550-2583-48AD-A5DF-2D1538E507EE",
+    "modifiedDate" : "2025-10-31T02:59:43Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2025-11-06T05:31:45Z",
+  "preferredFilename" : "Writing to Character 1",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+      "addNoise"
+    ],
+    "featureExtractorType" : "scenePrintV1",
+    "featureNames" : [
+
+    ],
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "iterationCount" : 25,
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "taskType" : "imageClassifier",
+    "transferLearningEmbeddingType" : "dynamic"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "uninitialized",
+  "title" : "Writing to Character 1",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+
+    },
+    "dataResult" : {
+      "createdDate" : "2025-10-31T02:59:43Z",
+      "dataSourceID" : "98CB5476-41EE-41A8-B10C-88D08D0981FF",
+      "dataURL" : "file:///Users/night_creek/Downloads/mathwriting-2024/train/",
+      "error" : {
+        "code" : 0,
+        "domain" : "com.apple.CreateML.xpc",
+        "errorType" : "error",
+        "reason" : "Missing data for label train. Detailed list of labels missing files: [\"train\"]."
+      }
+    },
+    "dataSourceID" : "98CB5476-41EE-41A8-B10C-88D08D0981FF",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "progress" : [
+
+    ],
+    "snapshottableCheckpoints" : {
+
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2025-10-31T02:59:43Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

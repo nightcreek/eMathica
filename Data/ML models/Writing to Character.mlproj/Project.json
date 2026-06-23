@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2025-10-31T02:59:43Z",
+        "event" : "projectCreated",
+        "id" : "E19338C4-513A-4B29-90D4-255FAC49A66B",
+        "subtitle" : "Writing to Character",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "楼俊翔",
+  "createdDate" : "2025-10-31T02:59:43Z",
+  "description" : "Handwriting math into LaTex",
+  "id" : "B2A27933-BC44-41AA-9375-81E5DD283194",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2025-10-31T02:59:43Z",
+  "projectName" : "Writing to Character",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "imageClassifier",
+  "title" : "Image Classification",
+  "version" : "1.1"
+}

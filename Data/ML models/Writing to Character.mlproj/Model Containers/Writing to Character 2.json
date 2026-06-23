@@ -1,0 +1,126 @@
+{
+  "activityEntities" : [
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2025-11-06T05:31:30Z",
+        "event" : "experimentCreated",
+        "id" : "FB8CC511-8B6F-4095-8454-EF1E34BA75A2",
+        "subtitle" : "Writing to Character 2",
+        "title" : "Model Source Created"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+
+  },
+  "createdDate" : "2025-11-06T05:31:30Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2025-11-06T05:31:30Z",
+    "evaluationEntities" : [
+
+    ],
+    "id" : "d096a986-2c6c-41bf-8b45-2a90ac81801d",
+    "modifiedDate" : "2025-11-06T05:31:30Z",
+    "previewType" : "imageClassifier",
+    "testingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2025-11-06T05:31:30Z",
+      "dataResult" : {
+
+      },
+      "id" : "8176edb8-fca5-4e62-8d9d-dd79a6eb6496"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2025-11-06T05:31:30Z",
+      "dataResult" : {
+
+      },
+      "id" : "b152806e-f8dc-4dc6-9fdc-ded9f139b221"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2025-11-06T05:31:30Z",
+      "dataResult" : {
+
+      },
+      "id" : "0b78fa17-2c55-4f16-86fd-70563c780fd8"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "e96708c7-191b-43e2-8db3-253886a59ce1"
+  },
+  "evaluationState" : "uninitialized",
+  "id" : "E837C516-ED59-458B-A0CD-59AB9B62A301",
+  "modelEntity" : {
+    "createdDate" : "2025-11-06T05:31:30Z",
+    "experimentID" : "E837C516-ED59-458B-A0CD-59AB9B62A301",
+    "id" : "41043C58-4053-4555-AA48-AB5C78DFACFC",
+    "modifiedDate" : "2025-11-06T05:31:30Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2025-11-06T05:31:30Z",
+  "preferredFilename" : "Writing to Character 2",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureExtractorType" : "scenePrintV1",
+    "featureNames" : [
+
+    ],
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "taskType" : "imageClassifier",
+    "transferLearningEmbeddingType" : "dynamic"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "uninitialized",
+  "title" : "Writing to Character 2",
+  "trainingEntity" : {
+    "analysedDataType" : "choose",
+    "checkpointMetrics" : {
+
+    },
+    "dataResult" : {
+
+    },
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "progress" : [
+
+    ],
+    "snapshottableCheckpoints" : {
+
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

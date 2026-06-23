@@ -1,0 +1,31 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2025-11-06T05:29:27Z",
+        "event" : "dataSourceCreated",
+        "id" : "6EB12D1C-6209-484D-A707-7CAA78772ECA",
+        "subtitle" : "mathwriting-2024",
+        "title" : "Data Source Created"
+      }
+    ]
+  ],
+  "createdDate" : "2025-11-06T05:29:27Z",
+  "dataPathRelativeToProjectURL" : "../../../../Downloads/mathwriting-2024/",
+  "dataResult" : {
+    "createdDate" : "2025-11-06T05:29:27Z",
+    "dataSourceID" : "A46F3BC1-61C9-4F46-BC3E-1B4B5D219F59",
+    "dataURL" : "file:///Users/night_creek/Downloads/mathwriting-2024/"
+  },
+  "dataURL" : "file:///Users/night_creek/Downloads/mathwriting-2024/",
+  "experimentIDs" : [
+    "D33E45D9-EE04-42E5-A9EE-1E3B16958C47"
+  ],
+  "id" : "A46F3BC1-61C9-4F46-BC3E-1B4B5D219F59",
+  "modifiedDate" : "2025-11-06T05:31:33Z",
+  "pathType" : 0,
+  "preferredFilename" : "mathwriting-2024",
+  "title" : "mathwriting-2024",
+  "version" : "1.0"
+}

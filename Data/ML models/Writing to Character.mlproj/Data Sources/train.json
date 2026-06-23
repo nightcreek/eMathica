@@ -1,0 +1,37 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2025-11-06T05:30:43Z",
+        "event" : "dataSourceCreated",
+        "id" : "A5BF2BE9-DEE7-45B9-BB4A-FE99E53E8C6C",
+        "subtitle" : "train",
+        "title" : "Data Source Created"
+      }
+    ]
+  ],
+  "createdDate" : "2025-11-06T05:30:43Z",
+  "dataPathRelativeToProjectURL" : "../../../../Downloads/mathwriting-2024/train/",
+  "dataResult" : {
+    "createdDate" : "2025-11-06T05:30:43Z",
+    "dataSourceID" : "98CB5476-41EE-41A8-B10C-88D08D0981FF",
+    "dataURL" : "file:///Users/night_creek/Downloads/mathwriting-2024/train/",
+    "error" : {
+      "code" : 0,
+      "domain" : "com.apple.CreateML.xpc",
+      "errorType" : "error",
+      "reason" : "Missing data for label train. Detailed list of labels missing files: [\"train\"]."
+    }
+  },
+  "dataURL" : "file:///Users/night_creek/Downloads/mathwriting-2024/train/",
+  "experimentIDs" : [
+    "D33E45D9-EE04-42E5-A9EE-1E3B16958C47"
+  ],
+  "id" : "98CB5476-41EE-41A8-B10C-88D08D0981FF",
+  "modifiedDate" : "2025-11-06T05:31:45Z",
+  "pathType" : 0,
+  "preferredFilename" : "train",
+  "title" : "train",
+  "version" : "1.0"
+}

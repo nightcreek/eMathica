@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="penBody" x1="700" y1="120" x2="950" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E8ECF5"/>
+    </linearGradient>
+    <linearGradient id="penTip" x1="655" y1="325" x2="800" y2="470" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF2FA"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0B2A80" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <g filter="url(#softShadow)" transform="rotate(34 790 260)">
+    <!-- pen body -->
+    <rect x="760" y="86" width="125" height="330" rx="34" fill="url(#penBody)"/>
+    <!-- ring -->
+    <rect x="760" y="390" width="125" height="20" rx="8" fill="#C9CFDA"/>
+    <!-- pen tip -->
+    <path d="M760 408 L885 408 L838 548 C832 568 812 568 806 548 Z" fill="url(#penTip)"/>
+    <circle cx="822" cy="550" r="10" fill="#FFFFFF"/>
+  </g>
+</svg>
