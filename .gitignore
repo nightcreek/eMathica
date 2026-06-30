@@ -2,10 +2,27 @@
 .DS_Store
 __MACOSX/
 
+# SwiftPM
+.build/
+.swiftpm/
+
 # Agent / IDE
+.vscode/
+.idea/
 .claude/
 .reasonix/
 reasonix.toml
 
 # Derived data
 DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+**/xcuserdata/
+
+# Environment / local config
+.env
+*.env
+
+# Logs
+*.log
